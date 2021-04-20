@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-size: 22px;
+    background-image: url(Nuotraukos/stars.jpg);
+    background-repeat: repeat;
+}
+
+header{
+
+text-align: center;
+height: 500px;
+
+}
+
+.img{
+  height: 450px;
+  width: 100%;
+}
+
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 25px;
+    
+    }
+
+.tas{
+background-color: #404040;
+min-height: 30vh;
+padding: 15px;
+max-width: 1000px;
+margin: auto;
+border-radius: 5px;
+}
+
+.news{
+   color: white;
+}
+        
+.line{
+   color: white;
+}
+
+.kaina{
+  color: white;
+  margin-top: 3%;
+}
+
+.cut, .icon{
+  color: white;
+  text-align: center;
+}
+
+.icon{
+  font-size: 1.5em;
+}
+
+.icon:before{
+  content:"― ";
+}
+
+.icon:after{
+  content:" ―";
+}
+
+.cuts{
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.table{
+  
+  color: white;
+  padding: 2%;
+}
+
+.apacia {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.idk{
+	text-align: center;
+}
+.blabla{
+	font-size: 15px;
+	color: white;
+}

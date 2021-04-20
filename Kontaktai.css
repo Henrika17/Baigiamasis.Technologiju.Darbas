@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-size: 22px;
+    background-image: url(Nuotraukos/stars.jpg);
+    background-repeat: repeat;
+}
+
+header{
+
+text-align: center;
+height: 500px;
+
+}
+
+.img{
+  height: 450px;
+  width: 100%;
+}
+  
+  main {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 25px;
+  
+  }	
+  
+  .tas{
+  
+              
+  background-color: #404040;
+  min-height: 30vh;
+  padding: 15px;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 5px;
+  
+  
+  }
+
+  .news{
+    color: white;
+  }
+  
+  .line{
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: black;
+    background-image: url(Nuotraukos/pic5.jpg);
+    text-align: center;
+    gap: 0px 0px;
+    grid-template-areas:
+      "address phone"
+      "worktime social";
+  }
+
+.address { 
+    grid-area: address;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.phone { 
+    grid-area: phone;
+    background-color: rgba(255, 255, 255, 0.5);
+ }
+
+.worktime { 
+    grid-area: worktime;
+    background-color: rgba(255, 255, 255, 0.5);
+ }
+
+.social { 
+    grid-area: social;
+    background-color: rgba(255, 255, 255, 0.5);
+     }
+
+.icon{
+    font-size: 2em;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.clear{
+  clear: both;
+}
+
+.formtext{
+  color: white;
+  text-align: center;
+  
+}
+
+.ikona{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.apacia {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.idk{
+	text-align: center;
+}
+.blabla{
+	font-size: 15px;
+	color: white;
+}
